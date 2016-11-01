@@ -1,0 +1,135 @@
+#section1 {
+    background-color: #168ccc;
+    background-image: url(../img/chat.jpg);
+    background-attachment: fixed;
+    color: #dedeff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+#section2 {
+    background-color: #2c3e50;
+    color: whitesmoke;
+}
+#section6 {
+    background-color: #2f2f2f;
+    color: whitesmoke;
+    min-height: 90%;
+}
+#section4 {
+    color: #2c3e50;
+    margin: auto;
+}
+#section3 {
+    background-color: silver;
+    min-height: 50%;
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    color: #dedeff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section5 {
+    background-color: silver;
+    min-height: 50%;
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    color: #dedeff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.v-center {
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: calc(100% - 1px);
+}
+
+html,
+body {
+    height: 100%;
+    background-size: cover;
+    background-color: #FFF;
+    font-family: core, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #dedeff;
+}
+
+figure {
+    /*  ver isso */
+}
+
+.centro{
+     /* habilita o flex nos filhos diretos */
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    /* centraliza na horizontal */
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top:30px;
+}
+.conteudo{
+    width:100%;
+    height: 100%;
+        
+}
+
+.empresa{
+    width: 100%;
+    max-height: 450px;
+    min-height: 200px;
+    height: 320px;
+}
+
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.box {
+    background-color: red;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thin;
+    width: 340px;
+    height: 340px;
+    margin: auto;
+}
+
+.texto {
+    margin-top: 30px;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin: auto;
+}
+#footwrap {
+    background: #2f2f2f;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: calc(100% - 1px);
+}
+
+#c {
+    background: #222222;
+    padding-top: 15px;
+    text-align: right;
+}

@@ -1,0 +1,373 @@
+ section {
+     padding-top: 70px;
+     padding-bottom: 50px;
+     min-height: calc(100% - 1px);
+     width: 100%;
+ }
+ 
+ .portfolio {
+     max-height: calc(100% - 1px);
+     margin: 0 5%;
+ }
+ 
+ .size {
+     width: 100%;
+     height: 400px;
+ }
+ 
+ .size img {
+     height: 100%;
+ }
+ 
+ .empresa {
+     width: 100%;
+     height: 400px;
+     margin-top: -1px;
+     /*Responsive background*/
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+ 
+ .empresaCorpo {
+     text-align: center;
+     font-size: 15px;
+     line-height: 1.7em;
+     text-align: justify;
+     padding: 3% 15% 3%;
+     font: 400 14px/20px;
+     color: rgba(0, 0, 0, 0.87);
+ }
+ 
+ .empresa-titulo {
+     position: relative;
+     width: 80%;
+     margin: auto;
+     background: #fff;
+     overflow: hidden;
+     color: rgba(0, 0, 0, 0.87);
+     font: 400 16px/20px;
+     text-align: center;
+ }
+ 
+ .empresa-titulo h1 {
+     font-size: 45px;
+     font-weight: 100;
+     line-height: 0.7em;
+ }
+ 
+ .empresa-titulo h2 {
+     font-size: 16px;
+ }
+ 
+ .btn-primary {
+     width: 300px;
+     background-color: #C62828;
+ }
+ 
+ .margem {
+     margin: 0px 35px 0px 35px;
+ }
+ 
+ .modal-lg {
+     width: 1280px;
+ }
+ 
+ .modal-content {
+     min-height: 100%;
+     border-radius: 0;
+     top: 50px;
+ }
+ 
+ .modal-header,
+ .close {
+     background-color: #C62828;
+     color: white !important;
+     text-align: center;
+     font-size: 30px;
+ }
+ 
+ .close {
+     color: black;
+ }
+ 
+ #inicio {
+     background-color: #168ccc;
+     background-image: url(../img/changed.jpg);
+     background-attachment: fixed;
+     color: #dedeff;
+     background-repeat: no-repeat;
+     background-size: cover;
+     letter-spacing: -1px;
+ }
+ 
+ #habilidades {
+     background-color: #2c3e50;
+     color: #dedeff;
+ }
+ 
+ #coments {
+     min-height: 50%;
+     background-color: #2c3e50;
+     color: white;
+ }
+ 
+ #contato {
+     min-height: 50%;
+     background-color: #2f2f2f;
+     color: white;
+     font-size: 24px;
+ }
+ 
+ .perfil {
+     border-radius: 50%;
+     width: 340px;
+     height: 340px;
+     margin: auto;
+ }
+ 
+ .v-center {
+     padding-top: 15%;
+     font-size: 70px;
+ }
+ 
+ html,
+ body {
+     height: 100%;
+     background-size: cover;
+     background-color: rgba(86, 86, 86, 0.14);
+     font-family: "Open Sans", sans-serif;
+     font-size: 16px;
+     margin: 0;
+ }
+ 
+ h4 {
+     font-size: 19px;
+     line-height: 1.375em;
+     font-weight: 400;
+     margin-bottom: 30px;
+ }
+ 
+ .jumbotron {
+     background-color: #f4511e;
+     color: #fff;
+     padding: 100px 25px;
+ }
+ 
+ .material-icons.md-18 {
+     font-size: 18px;
+ }
+ 
+ .material-icons.md-24 {
+     font-size: 24px;
+ }
+ 
+ .material-icons.md-36 {
+     font-size: 36px;
+ }
+ 
+ .material-icons.md-48 {
+     font-size: 48px;
+ }
+ 
+ .bg-grey {
+     background-color: #f6f6f6;
+ }
+ 
+ .material-icons.logo-small {
+     color: #C62828;
+     font-size: 50px;
+ }
+ 
+ .logo {
+     color: #C62828;
+     font-size: 200px;
+ }
+ 
+ .thumbnail {
+     padding: 10px;
+ }
+ 
+ .imagem {
+     width: 100%;
+     height: 100%;
+     background-color: white;
+ }
+ 
+ .img {
+     position: relative;
+     width: 100%;
+     height: 350px;
+     margin-bottom: 50px;
+ }
+ 
+ .img p {
+     color: white;
+     font: bold 24px/45px;
+     letter-spacing: -1px;
+     background: #2c3e50;
+     padding: 32px;
+     position: absolute;
+     width: 100%;
+     bottom: -10px;
+     /* removendo do bootstrap */
+ }
+ 
+ .thumbnail > img,
+ .thumbnail a > img,
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     display: block;
+     height: 360px;
+     width: 600px;
+ }
+ /* ------------------- Carousel Styling ------------------- */
+ 
+ .fotos {
+     height: 360px !important;
+     width: 600px;
+ }
+ 
+ .carousel-inner {
+     border-radius: 15px;
+     margin: 0 auto
+ }
+ 
+ .carousel-indicators {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     width: 100%;
+     z-index: 15;
+     margin: 0;
+     padding: 0 25px 25px 0;
+     text-align: right;
+ }
+ 
+ .carousel-control.right,
+ .carousel-control.left {
+     background-image: none;
+     color: #C62828;
+ }
+ 
+ #myCarousel.carousel-inner > .item {
+     position: relative;
+     display: none;
+     -webkit-transition: 0.8s ease-in-out left;
+     -moz-transition: 0.8s ease-in-out left;
+     -o-transition: 0.8s ease-in-out left;
+     transition: 0.8s ease-in-out left;
+ }
+ 
+ #myCarousel h4 {
+     margin-bottom: 0px;
+     padding-left: 300px;
+     padding-right: 300px;
+ }
+ /* ------------------- N   av Bar ------------------- */
+ 
+ .navbar {
+     margin-bottom: 0;
+     background-color: #C62828;
+     z-index: 9999;
+     border: 0;
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 1px;
+     border-radius: 0;
+ }
+ 
+ .navbar li a,
+ .navbar .navbar-brand {
+     color: #fff !important;
+ }
+ 
+ .navbar-nav li a:hover,
+ .navbar-nav li.active a {
+     color: #f4511e !important;
+     background-color: #fff !important;
+ }
+ 
+ .navbar-default .navbar-toggle {
+     border-color: transparent;
+     color: #fff !important;
+ }
+ 
+ footer {
+     background-color: #222222;
+     color: white;
+ }
+ 
+ footer .glyphicon {
+     font-size: 20px;
+     margin-bottom: 20px;
+     color: #f4511e;
+ }
+ 
+ #contato i {
+     padding-right: 8px;
+     color: #C62828;
+ }
+ 
+ .social {
+     font-size: 36px;
+ }
+ 
+ .ch:hover {
+     background-color: aqua;
+ }
+ 
+ .slide {
+     animation-name: slide;
+     -webkit-animation-name: slide;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+     visibility: visible;
+ }
+ 
+ .text {
+     position: relative;
+     bottom: 30px;
+     left: 0px;
+     visibility: hidden;
+ }
+ 
+ #text {
+     background: rgba(0, 0, 0, .75);
+     text-align: center;
+     padding: 45px 0 66px 0;
+     opacity: 0;
+     -webkit-transition: opacity .25s ease;
+     -moz-transition: opacity .25s ease;
+ }
+ 
+ @keyframes slide {
+     0% {
+         opacity: 0;
+         -webkit-transform: translateY(70%);
+     }
+     100% {
+         opacity: 1;
+         -webkit-transform: translateY(0%);
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .col-sm-4 {
+         text-align: center;
+         margin: 25px 0;
+         padding: 0;
+     }
+     .btn-lg {
+         width: 100%;
+         margin-bottom: 35px;
+     }
+ }
+ 
+ @media screen and (max-width: 480px) {
+     .logo {
+         font-size: 150px;
+     }
+ }

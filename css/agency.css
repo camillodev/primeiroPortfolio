@@ -1,0 +1,53 @@
+#section1 {
+    background-color: #168ccc;
+    background-image: url(../img/changed.jpg);
+    background-attachment: fixed;
+    color: #dedeff;
+    font-family: Times New Roman;
+}
+
+#section2 {
+    background-color: #168ccc;
+    color: #dedeff;
+}
+
+.v-center {
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: calc(100% - 1px);
+}
+
+.titulo{
+    font-size: 60px;
+}
+
+
+figure{
+    /*  ver isso */
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+p{
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.perfil {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin-left: 50px;
+    float: right;
+    border-style: solid;
+    border-width: 3px;
+}
